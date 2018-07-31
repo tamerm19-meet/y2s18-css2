@@ -16,3 +16,12 @@ p {
 a {
     color:red;
 }
+a:hover{
+	color: yellow;
+}
+#important_paragraph:hover{
+	color: purple;
+}
+.less_important_paragraphs:hover{
+	color: blue;
+}
