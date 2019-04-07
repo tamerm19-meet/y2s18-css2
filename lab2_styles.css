@@ -9,19 +9,32 @@ h1 {
 }
 
 p {
-    color: green;
+    color: blue;
     font-size: 24pt;
 }
 
 a {
     color:red;
 }
+
 a:hover{
-	color: yellow;
+	background-color: black;
 }
+
 #important_paragraph:hover{
-	color: purple;
+background-color: blue;
+font-size: 40px;
+color:red;
 }
-.less_important_paragraphs:hover{
-	color: blue;
+
+.less_important_paragraph:hover{
+	color:blue;
+}
+
+#hidden_div{
+	display: none;
+}
+
+#span_cover:hover + #hidden_div {
+    display: block;
 }

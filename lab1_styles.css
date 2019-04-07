@@ -6,8 +6,8 @@ body {
     font-size: 36pt;
     font-family: sans-serif;
     height: 60px;
-    padding: 10px;
-    border-bottom: 5px solid gray;
+    border-bottom: 1px solid blue;
+    padding: 15px 15px 15px 15px;
 }
 
 .container {
@@ -16,23 +16,20 @@ body {
 }
 
 .sidebar {
-    width: 200px;
-    background: #ff6677;
+    width: 160px;
+    background: red;
     position: absolute;
     top: 0;
     height: 100%;
-    padding: 10px 15px;
-    width: 165px;
+    padding: 10px 15px 10px 15px;
 }
 
 .main-content {
-    background: #ffffcc;
+    background: red;
     position: absolute;
     top: 0;
     left: 200px;
-    border: 5px solid blue;
-    margin: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 10px;
+    border: 5px inset blue;
+    margin:5px;
+    padding: 0px 15px 10px 15px;
 }
